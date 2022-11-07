@@ -74,6 +74,10 @@ plugins=(git)
 
 source $ZSH/oh-my-zsh.sh
 
+plugins=( 
+    # other plugins...
+    zsh-autosuggestions
+)
 # User configuration
 
 # export MANPATH="/usr/local/man:$MANPATH"
